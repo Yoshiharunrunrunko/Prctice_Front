@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* ==============================================================================================
+ Normalize
+================================================================================================= */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+========================================================================== */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+========================================================================== */
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+
+/* Grouping content
+========================================================================== */
+
+/* header */
+
+.purple{
+    background-color: #C8AEE1;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+
+header p{
+    color: #FAFAFA;
+}
+
+/* メインコンテンツ */
+/* ロゴセクション */
+
+/* アバウトセクション */
+section.about{
+    background-color: #FAFAFA;
+}
+
+.about_content{
+    display: flex;
+}
+
+.about_inner_content{
+    display: flex;
+}
+
+.about_content .about_inner_content{
+    background-color: #E4F9FC;
+}
+
+.favorite_inner_content{
+    background-color: #FAFAFA;
+    width: 100%;
+}
+
+/* 作品紹介セクション */
+.works{
+    background-color: #FAFAFA;
+}
+
+
+/* 連絡手段セクション */
+.contact{
+    background-color: #FAFAFA;
+}
+
+.contact_content{
+    background-color: #E4F9FC;
+}
